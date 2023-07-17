@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,3 +111,117 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chess.com Leaderboard</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navbar {
+      background-color: #000;
+    }
+    .navbar-brand {
+      font-size: 24px;
+      color: #fff;
+      font-weight: bold;
+    }
+    .navbar-brand:hover {
+      text-decoration: none;
+    }
+    .navbar-nav {
+      justify-content: center;
+    }
+    .nav-link {
+      color: #fff;
+    }
+    .nav-link:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .leaderboard-section {
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .leaderboard-section h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .leaderboard-buttons .btn {
+      font-size: 18px;
+      padding: 15px 30px;
+      margin: 10px;
+    }
+
+    .footer {
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+    
+        
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">
+        Chess Leaderboard
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/leaderboard/daily">Daily Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/leaderboard/blitz">Blitz Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/leaderboard/bullet">Bullet Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/leaderboard/rapid">Rapid Ranking</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <section class="leaderboard-section">
+      <h2>Chess.com Leaderboard</h2>
+      <div class="leaderboard-buttons">
+        <a href="/leaderboard/daily" class="btn btn-primary">Daily Ranking</a>
+        <a href="/leaderboard/blitz" class="btn btn-primary">Blitz Ranking</a>
+        <a href="/leaderboard/bullet" class="btn btn-primary">Bullet Ranking</a>
+        <a href="/leaderboard/rapid" class="btn btn-primary">Rapid Ranking</a>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    Developed by Ashutosh Sharma
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+>>>>>>> 18d2a02d67e066053422caa249724cdddfd8154f
